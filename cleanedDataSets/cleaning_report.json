@@ -1,0 +1,54 @@
+[
+  {
+    "dataset": "german_credit_data",
+    "input_file": "dataSets/german_credit_data.csv",
+    "output_file": "cleanedDataSets/german_credit_data.csv",
+    "input_rows": 1000,
+    "output_rows": 1000,
+    "removed_rows": 0,
+    "input_columns": 10,
+    "output_columns": 9,
+    "target_column": null,
+    "supervised_ready": false,
+    "notes": [
+      "No real target column exists in this German Credit CSV.",
+      "Kept cleaned data for analysis, but excluded it from DNN training."
+    ],
+    "remaining_missing_values": {}
+  },
+  {
+    "dataset": "heloc_dataset",
+    "input_file": "dataSets/heloc_dataset.csv",
+    "output_file": "cleanedDataSets/heloc_dataset.csv",
+    "input_rows": 10459,
+    "output_rows": 9872,
+    "removed_rows": 587,
+    "input_columns": 24,
+    "output_columns": 47,
+    "target_column": "risk_performance",
+    "supervised_ready": true,
+    "notes": [
+      "RiskPerformance encoded as good=1 and bad=0.",
+      "HELOC special values -7, -8 and -9 were treated as missing.",
+      "Special-missing indicator columns were added before median imputation."
+    ],
+    "remaining_missing_values": {}
+  },
+  {
+    "dataset": "german_uci_credit_raw",
+    "input_file": "dataSets/german_uci_credit_raw.data",
+    "output_file": "cleanedDataSets/german_uci_credit_data.csv",
+    "input_rows": 1000,
+    "output_rows": 1000,
+    "removed_rows": 0,
+    "input_columns": 21,
+    "output_columns": 21,
+    "target_column": "risk_performance",
+    "supervised_ready": true,
+    "notes": [
+      "Official UCI Statlog German Credit data was used for supervised training.",
+      "Class encoded as good=1 and bad=0."
+    ],
+    "remaining_missing_values": {}
+  }
+]

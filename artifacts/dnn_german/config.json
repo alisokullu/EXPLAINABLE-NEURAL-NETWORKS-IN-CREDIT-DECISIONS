@@ -1,0 +1,12 @@
+{
+  "dataset_path": "cleanedDataSets/german_uci_credit_data.csv",
+  "output_dir": "artifacts/dnn_german",
+  "test_size": "0.2",
+  "validation_size": "0.2",
+  "random_state": "42",
+  "batch_size": "64",
+  "epochs": "140",
+  "learning_rate": "0.0005",
+  "weight_decay": "0.0001",
+  "patience": "20"
+}

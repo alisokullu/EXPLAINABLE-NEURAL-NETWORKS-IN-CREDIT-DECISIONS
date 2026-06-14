@@ -1,0 +1,996 @@
+[
+  {
+    "dataset": "german",
+    "query_index": 701,
+    "counterfactual_id": 1,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.38993290066719055,
+    "counterfactual_probability_good": 0.6446437239646912,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6331.0,
+        "to": 250.0,
+        "delta": -6081.0
+      },
+      {
+        "feature": "duration",
+        "from": 48.0,
+        "to": 4.0,
+        "delta": -44.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6331.0 to about 250.0.",
+      "Repayment duration could be shortened from 48.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 48,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 6331,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 701,
+    "counterfactual_id": 2,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.38993290066719055,
+    "counterfactual_probability_good": 0.6446437239646912,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6331.0,
+        "to": 250.0,
+        "delta": -6081.0
+      },
+      {
+        "feature": "duration",
+        "from": 48.0,
+        "to": 4.0,
+        "delta": -44.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6331.0 to about 250.0.",
+      "Repayment duration could be shortened from 48.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 48,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 6331,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 701,
+    "counterfactual_id": 3,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.38993290066719055,
+    "counterfactual_probability_good": 0.6446437239646912,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6331.0,
+        "to": 250.0,
+        "delta": -6081.0
+      },
+      {
+        "feature": "duration",
+        "from": 48.0,
+        "to": 4.0,
+        "delta": -44.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6331.0 to about 250.0.",
+      "Repayment duration could be shortened from 48.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 48,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 6331,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 701,
+    "counterfactual_id": 4,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.38993290066719055,
+    "counterfactual_probability_good": 0.6446437239646912,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6331.0,
+        "to": 250.0,
+        "delta": -6081.0
+      },
+      {
+        "feature": "duration",
+        "from": 48.0,
+        "to": 4.0,
+        "delta": -44.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6331.0 to about 250.0.",
+      "Repayment duration could be shortened from 48.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 48,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 6331,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a34",
+      "purpose": "a41",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 4,
+      "property": "a124",
+      "age": 46,
+      "other_installment_plans": "a143",
+      "housing": "a153",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 482,
+    "counterfactual_id": 3,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3895459771156311,
+    "counterfactual_probability_good": 0.47108063101768494,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 3622.0,
+        "to": 250.0,
+        "delta": -3372.0
+      },
+      {
+        "feature": "duration",
+        "from": 30.0,
+        "to": 4.0,
+        "delta": -26.0
+      },
+      {
+        "feature": "installment_rate",
+        "from": 4.0,
+        "to": 1.0,
+        "delta": -3.0
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 3622.0 to about 250.0.",
+      "Repayment duration could be shortened from 30.0 months to about 4.0 months.",
+      "Installment burden could be lowered from 4.0 to about 1.0, for example with more income, a lower amount, or a down payment."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 30,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 3622,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a92",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 250,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 1,
+      "personal_status_sex": "a92",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 482,
+    "counterfactual_id": 1,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3895459771156311,
+    "counterfactual_probability_good": 0.5698328614234924,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 4,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 3622.0,
+        "to": 250.0,
+        "delta": -3372.0
+      },
+      {
+        "feature": "duration",
+        "from": 30.0,
+        "to": 4.0,
+        "delta": -26.0
+      },
+      {
+        "feature": "installment_rate",
+        "from": 4.0,
+        "to": 1.0,
+        "delta": -3.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 3622.0 to about 250.0.",
+      "Repayment duration could be shortened from 30.0 months to about 4.0 months.",
+      "Installment burden could be lowered from 4.0 to about 1.0, for example with more income, a lower amount, or a down payment.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 30,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 3622,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a92",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 250,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 1,
+      "personal_status_sex": "a92",
+      "other_debtors": "a103",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 482,
+    "counterfactual_id": 2,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3895459771156311,
+    "counterfactual_probability_good": 0.5698328614234924,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 4,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 3622.0,
+        "to": 250.0,
+        "delta": -3372.0
+      },
+      {
+        "feature": "duration",
+        "from": 30.0,
+        "to": 4.0,
+        "delta": -26.0
+      },
+      {
+        "feature": "installment_rate",
+        "from": 4.0,
+        "to": 1.0,
+        "delta": -3.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 3622.0 to about 250.0.",
+      "Repayment duration could be shortened from 30.0 months to about 4.0 months.",
+      "Installment burden could be lowered from 4.0 to about 1.0, for example with more income, a lower amount, or a down payment.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 30,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 3622,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a92",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 250,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 1,
+      "personal_status_sex": "a92",
+      "other_debtors": "a103",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 482,
+    "counterfactual_id": 4,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3895459771156311,
+    "counterfactual_probability_good": 0.5698328614234924,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 4,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 3622.0,
+        "to": 250.0,
+        "delta": -3372.0
+      },
+      {
+        "feature": "duration",
+        "from": 30.0,
+        "to": 4.0,
+        "delta": -26.0
+      },
+      {
+        "feature": "installment_rate",
+        "from": 4.0,
+        "to": 1.0,
+        "delta": -3.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 3622.0 to about 250.0.",
+      "Repayment duration could be shortened from 30.0 months to about 4.0 months.",
+      "Installment burden could be lowered from 4.0 to about 1.0, for example with more income, a lower amount, or a down payment.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a11",
+      "duration": 30,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 3622,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 4,
+      "personal_status_sex": "a92",
+      "other_debtors": "a101",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a11",
+      "duration": 4,
+      "credit_history": "a32",
+      "purpose": "a42",
+      "credit_amount": 250,
+      "savings_account_bonds": "a64",
+      "present_employment_since": "a75",
+      "installment_rate": 1,
+      "personal_status_sex": "a92",
+      "other_debtors": "a103",
+      "present_residence_since": 4,
+      "property": "a122",
+      "age": 57,
+      "other_installment_plans": "a143",
+      "housing": "a151",
+      "existing_credits": 2,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a192",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 730,
+    "counterfactual_id": 1,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3894649147987366,
+    "counterfactual_probability_good": 0.590697705745697,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6403.0,
+        "to": 250.0,
+        "delta": -6153.0
+      },
+      {
+        "feature": "duration",
+        "from": 24.0,
+        "to": 4.0,
+        "delta": -20.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6403.0 to about 250.0.",
+      "Repayment duration could be shortened from 24.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a12",
+      "duration": 24,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 6403,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a12",
+      "duration": 4,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 730,
+    "counterfactual_id": 2,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3894649147987366,
+    "counterfactual_probability_good": 0.590697705745697,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6403.0,
+        "to": 250.0,
+        "delta": -6153.0
+      },
+      {
+        "feature": "duration",
+        "from": 24.0,
+        "to": 4.0,
+        "delta": -20.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6403.0 to about 250.0.",
+      "Repayment duration could be shortened from 24.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a12",
+      "duration": 24,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 6403,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a12",
+      "duration": 4,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 730,
+    "counterfactual_id": 3,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3894649147987366,
+    "counterfactual_probability_good": 0.590697705745697,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6403.0,
+        "to": 250.0,
+        "delta": -6153.0
+      },
+      {
+        "feature": "duration",
+        "from": 24.0,
+        "to": 4.0,
+        "delta": -20.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6403.0 to about 250.0.",
+      "Repayment duration could be shortened from 24.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a12",
+      "duration": 24,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 6403,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a12",
+      "duration": 4,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    }
+  },
+  {
+    "dataset": "german",
+    "query_index": 730,
+    "counterfactual_id": 4,
+    "desired_class": "good",
+    "threshold": 0.38999999999999996,
+    "original_probability_good": 0.3894649147987366,
+    "counterfactual_probability_good": 0.590697705745697,
+    "model_valid": true,
+    "valid": true,
+    "actionability_issues": [],
+    "changed_feature_count": 3,
+    "top_changes": [
+      {
+        "feature": "credit_amount",
+        "from": 6403.0,
+        "to": 250.0,
+        "delta": -6153.0
+      },
+      {
+        "feature": "duration",
+        "from": 24.0,
+        "to": 4.0,
+        "delta": -20.0
+      },
+      {
+        "feature": "other_debtors",
+        "from": "a101",
+        "to": "a103"
+      }
+    ],
+    "customer_recommendations": [
+      "Requested loan amount could be reduced from 6403.0 to about 250.0.",
+      "Repayment duration could be shortened from 24.0 months to about 4.0 months.",
+      "Adding support such as guarantor could make the application more acceptable."
+    ],
+    "original_features": {
+      "checking_account_status": "a12",
+      "duration": 24,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 6403,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a101",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    },
+    "counterfactual_features": {
+      "checking_account_status": "a12",
+      "duration": 4,
+      "credit_history": "a33",
+      "purpose": "a43",
+      "credit_amount": 250,
+      "savings_account_bonds": "a61",
+      "present_employment_since": "a72",
+      "installment_rate": 1,
+      "personal_status_sex": "a93",
+      "other_debtors": "a103",
+      "present_residence_since": 2,
+      "property": "a123",
+      "age": 33,
+      "other_installment_plans": "a143",
+      "housing": "a152",
+      "existing_credits": 1,
+      "job": "a173",
+      "people_liable": 1,
+      "telephone": "a191",
+      "foreign_worker": "a201"
+    }
+  }
+]
